@@ -1,5 +1,8 @@
 <?php
 
+/*Esta version fue la primera de todas que simplemente se hace un array bidimensional ($horario) que se recorre con dos fors y para los colores se hace muy tedisoso que buscas el elemnto y si este era
+el encontrado se cambiaba el color con un style*/
+
 $horario = [
     ["8:15-9:10",   "IPE",  "Cliente", "IPE",  "Servidor", "Interfaz"],
     ["9:10-10:05",  "Servidor", "Cliente", "Cliente", "Servidor", "Optativa"],
