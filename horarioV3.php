@@ -1,5 +1,6 @@
 <?php
-
+/*Esta version es muy parecida a la V3, lo unico que en vez recorrer todo el array elemento por elemento lo que se hace es meter cada elemento de horario en un array unidimensional y luego ya con ese array llamado 
+asignatura, puedo acceder directamente para luego cambiar los colores mas rapido*/
 $horario = [
     ["8:15-9:10",   "IPE",  "Cliente", "IPE",  "Servidor", "Interfaz"],
     ["9:10-10:05",  "Servidor", "Cliente", "Cliente", "Servidor", "Optativa"],
