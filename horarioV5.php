@@ -1,5 +1,8 @@
 <?php
 
+/*Esta version es practicamente igual que la V4 lo unico que cambia es que se ha solucionado el error de la condicion if que ahcia que se generase celdas sin que hubiese nada dentro. 
+Ahora solo se generar las celdas que tienen asignaturas*/
+
 $horario = [
     "Lunes" => [
         "IPE",
