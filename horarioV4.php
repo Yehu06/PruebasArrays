@@ -1,5 +1,6 @@
 <?php
-
+/*Esta version ya cambia un poco pq lo que hago es en vez de usar un array bidimensional con todo uso uno asociativo en donde el indice es cada dia de la semana hasta el viernes y dentro de cada indice meto las asignaturas correspondientes
+a ese dia.Luego hago un array unidimensional con las horas y ya a partir de ahi recorro las filas de horas y por cada fila recorro el array horario y genero una celda por cada asignatura corrspondiente a ese dia y con su color*/
 $horario = [
     "Lunes" => [
         "IPE",
