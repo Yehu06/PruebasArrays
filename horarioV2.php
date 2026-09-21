@@ -1,7 +1,7 @@
 <?php
 
 /*Esta version es muy parecida a la anterior, lo unico que en vez de usar style hago un array asociativo donde guardas los colores (con el codigo hexadecimal) y luego se recorre el array asociativo con
-un for each*/
+un for each. En el array cada color tiene de indice una asignatura*/
 
 $horario = [
     ["8:15-9:10",   "IPE",  "Cliente", "IPE",  "Servidor", "Interfaz"],
